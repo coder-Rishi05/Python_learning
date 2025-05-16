@@ -129,11 +129,99 @@ string
  Chars = 8
  Digits = 3
  Symbol = 4
+
+ ans. 
+        
+a = "P@#yn26at^&i5ve"
+
+        char = 0
+        dig = 0
+        sp_char = 0
+
+        for i in a :
+            if i.isdigit():
+                dig += 1
+            elif i.isalpha():
+                char += 1
+            else :
+                sp_char += 1
+
+        print(char)
+        print(dig)
+        print(sp_char)
+
 """
 
-a = input("Enter your string : ")
 
 
 
+"""While
 
-"""While"""
+1. Separate each digit of a number and print it on the new line.
+
+    a = int(input("Enter you digit : "))
+
+    seprate_digit = 0
+    su = 0
+    while a != 0 :
+    
+    seprate_digit =  a%10
+    su = (su * 10) + seprate_digit
+    a = a//10
+
+
+    print(su)
+    
+
+2. Accept a number and print its reverse.
+
+a = int(input("Enter a number : "))
+# a =123
+n_um = 0
+rev = 0
+
+while a != 0 :
+    n_um =  a % 10
+    rev = (rev * 10) + n_um
+    a =  a // 10
+
+print(f"reverse of the given number : {rev} ")
+
+3. Accept a number and check if it is a pallindromic number (If
+    number and its reverse are equal?
+
+    
+a = int(input("Enter a number : "))
+# a =123
+n_um = 0
+rev = 0
+b = a
+
+while a != 0 :
+    n_um =  a % 10
+    rev = (rev * 10) + n_um
+    a =  a // 10
+
+if rev != b :
+    print("Not a palinfrome : ")
+else : 
+    print("It's a palindrome number : ")
+
+4. Create a random number guessing game with python.
+
+
+
+"""
+
+import random
+
+a = random.randint(1,20)
+
+
+b = int(input("Enter your guess you have three tries : "))
+
+# if  :
+#     print("Your guess is right : 👌 \n")
+# elif :
+#     print(f"Your guess is wrong : try again {a}")    
+
