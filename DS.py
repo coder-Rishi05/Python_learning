@@ -76,3 +76,70 @@ print(data)
 
 """
 
+
+"""
+Some questions
+1. Print positive and negative elements of an List?
+
+
+pos_neg_List = [1,2,4,-1,-10,8,-9]
+
+for i in pos_neg_List:
+    if(i > 0):
+        print(f"positive from the array : {i}")
+    elif(i < 0):
+        print(f"negative from the array : {i}")
+
+        
+2. Mean of List elements?
+
+mean_Data = [1,2,3,1,10,8,19]
+mean = 0
+count = 0
+su = 0
+for i in mean_Data :
+    count = count + 1
+    su = su + i
+
+mean = su // count
+
+print(f"mean of the list is : {mean}")
+
+3. Find the greatest element and print its index too?
+
+
+mean_Data = [1,2,3,1,10,8,19]
+gratest = 0
+# count = 0
+# su = 0
+for i in mean_Data :
+    if gratest < i :
+        gratest = i
+
+
+print(f"greates number in the list is : {gratest}")
+
+
+4. Find the second greatest element?
+
+
+5. Check if List is sorted or not.
+
+"""
+
+
+
+mean_Data = [1,2,3,1,10,8,19]
+gratest = 0
+index = 0
+# count = 1
+# su = 0
+for i in range(len(mean_Data)) :
+    if gratest < mean_Data[i] :
+        # count = count + 1
+        gratest = mean_Data[i]
+        index = i
+
+
+print(f"greates number in the list is : {gratest}")
+print(f"index of greatest element : {index} ")
