@@ -22,3 +22,35 @@ def greet(name="Rishi"):
 
 greet() #without defualt value
 greet("Rishabh") # with default value
+
+
+# key word argument function
+
+def intro(name,age):
+    print(f"your name is {name} and age is {age}  ")
+
+intro(age = 12, name="Akash")
+
+
+
+
+
+def pali(word):
+    rev = ""
+    for i in (range(len(word)-1,-1,-1)):
+        rev = rev + word[i]
+    if(rev==word) : 
+        print(f" {word} palindrome")
+    else:
+        print(f" {word} not a palindrome : ")    
+
+pali("naman")
+pali("bali")
+
+
+# return print or return the values.
+
+def hello():
+    return "hey"
+
+print(hello())
