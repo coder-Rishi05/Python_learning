@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Tupple in Data Structures : 
 
 
@@ -48,8 +48,7 @@ x = (1) #this is not touple as it is unpacked so it's type is int.
 x = (1,) # now it is touple.
 
 
-=======
 a = (1,23,4,2,3)
 
 print(type(a))
->>>>>>> 4b2068b7740384468e4d4f13f4a8871da18c26b5
+
