@@ -139,6 +139,29 @@ s2 = b - a
 print(s2)
 print(s1)
 
+
+
+# 4. Symetric Diffrence
+
+
+
+a = {1,2,3,4,5}
+b = {4,5,6,7,8}
+
+
+print(a)
+print(b)
+
+# symmetric diffrence
+
+s1 = a.symmetric_difference(b)
+
+print(s1)
+
+# symmetric symbol
+
+s = b ^ a 
+print(s)
 """
 
 first_set = {12,13,14,11,35}
