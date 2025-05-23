@@ -76,6 +76,18 @@ Special sets methods to perform between two sets.
 
 1. union => 
 
+first_set = {12,13,14,11,35}
+second_set = {1,12,13,14,11}
+
+union_set = first_set.union(second_set) # union method
+# it will print only unique elements from both sets.
+
+print(union_set)
+
+print(first_set)
+print(second_set)
+
+print(first_set | second_set) # union symbol
 
 
 """
