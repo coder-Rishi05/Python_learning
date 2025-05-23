@@ -1,0 +1,1 @@
+# Dictionay is also a Data structure. It holds items in keys and values.

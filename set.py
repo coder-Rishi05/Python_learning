@@ -77,11 +77,90 @@ Special sets methods to perform between two sets.
 1. union => 
 
 
+first_set = {12,13,14,11,35}
+second_set = {1,12,13,14,11}
+
+union_set = first_set.union(second_set) # union method
+# it will print only unique elements from both sets.
+
+print(union_set)
+
+print(first_set)
+print(second_set)
+
+print(first_set | second_set) # union symbol
+
+
+2. Intersection
+
+a = {1,2,3,4,5}
+b = {4,5,6,7,8}
+
+print(a)
+print(b)
+
+#  Intersection method
+
+s = a.intersection(b)
+print(s)
+
+#  Intersection symbol
+
+s1 = a&b
+
+print(s1)
+
+
+3. Diffrence
+
+
+
+a = {1,2,3,4,5}
+b = {4,5,6,7,8}
+
+
+print(a)
+print(b)
+
+#  diffrence method
+
+s = a.difference(b)
+print(s)
+
+#  diffrence symbol
+
+s1 = a-b
+
+# or
+
+s2 = b - a
+
+
+print(s2)
+print(s1)
+
+
+# 4. Symetric Diffrence
+
+
+
+a = {1,2,3,4,5}
+b = {4,5,6,7,8}
+
+
+print(a)
+print(b)
+
+# symmetric diffrence
+
+s1 = a.symmetric_difference(b)
+
+print(s1)
+
+# symmetric symbol
+
+s = b ^ a 
+print(s)
 
 """
-
-first_set = {12,13,14,11,35}
-second_set = {1,2,3,45,78}
-
-union_set = first_set.union(second_set)
 
