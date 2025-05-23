@@ -110,6 +110,35 @@ s1 = a&b
 
 print(s1)
 
+
+3. Diffrence
+
+
+
+a = {1,2,3,4,5}
+b = {4,5,6,7,8}
+
+
+print(a)
+print(b)
+
+#  diffrence method
+
+s = a.difference(b)
+print(s)
+
+#  diffrence symbol
+
+s1 = a-b
+
+# or
+
+s2 = b - a
+
+
+print(s2)
+print(s1)
+
 """
 
 first_set = {12,13,14,11,35}
