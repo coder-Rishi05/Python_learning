@@ -90,6 +90,26 @@ print(second_set)
 print(first_set | second_set) # union symbol
 
 
+
+2. Intersection
+
+a = {1,2,3,4,5}
+b = {4,5,6,7,8}
+
+print(a)
+print(b)
+
+#  Intersection method
+
+s = a.intersection(b)
+print(s)
+
+#  Intersection symbol
+
+s1 = a&b
+
+print(s1)
+
 """
 
 first_set = {12,13,14,11,35}
