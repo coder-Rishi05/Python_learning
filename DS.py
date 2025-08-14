@@ -103,6 +103,7 @@ mean = su // count
 
 print(f"mean of the list is : {mean}")
 
+
 3. Find the greatest element and print its index too?
 
 num = [12,34,53,67,84,21]

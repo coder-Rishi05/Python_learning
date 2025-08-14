@@ -22,9 +22,9 @@ a = 1.2
 
 # a = "A"
 
-# ord() => 65 chr() => A
+# ord(A) => 65 chr(65) => A
 
-# print(ord(a))
+# print(ord(a)) => 195
 
 # positive index 1234 and negative index -1,-2,-4
 
