@@ -98,3 +98,13 @@ print(arr)
             if(arr[i] > arr[i-1] and arr[i] > arr[i+1] or arr[i] < arr[i-1] and arr[i] < arr[i+1] ):
                 count +=1
         return count"""
+
+
+
+
+"""
+2293. Min Max Game
+
+
+
+"""
