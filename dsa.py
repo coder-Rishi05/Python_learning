@@ -105,6 +105,56 @@ print(arr)
 """
 2293. Min Max Game
 
+class Solution:
+    def minMaxGame(self, nums: List[int]) -> int:                
+        l=nums
+        while len(l)>1:
+            is_min=True     
+            tmp=[]
+            for i in range(0, len(l), 2):
+                if is_min:
+                    tmp.append(min(l[i:i+2]))
+                else:
+                    tmp.append(max(l[i:i+2]))
+                is_min=not is_min            
+            l=tmp            
+        return l[0]                        
+
+
+"""
+
+
+"""
+Keep Multiplying Found Values by Two
+
+class Solution:
+    def findFinalValue(self, nums: List[int], original: int) -> int:
+        flag = 1
+        while flag == 1:
+            flag = 0
+            for i in nums:
+                if i == original:
+                    original = original * 2
+                    flag = 1
+        
+        return original
+
+
+"""
+
+"""
+Count Operations to Obtain Zero
+
+class Solution:
+    def countOperations(self, num1: int, num2: int) -> int:
+        count = 0
+        while num1 != 0 and num2 != 0:
+            if num1 >= num2:
+                num1 -= num2
+            else:
+                num2 -= num1
+            count += 1
+        return count
 
 
 """
