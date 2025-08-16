@@ -41,6 +41,30 @@ Stage 3: Strings
 
             15. Count how many times each character appears in a string.
 
+Stage 4: Lists, Tuples, and Dictionaries
+
+            Find the largest number in a list.
+
+            Remove duplicates from a list without using set().
+
+            Given two lists, create a new list containing elements present in both.
+
+            Create a dictionary of 5 fruits with their prices and print each item.
+
+            Count the frequency of words in a given sentence.
+
+Stage 5: Functions & Mid-Level Logic
+
+            Write a function to calculate the factorial of a number.
+
+            Write a function to check if a number is prime.
+
+            Create a function that takes a list and returns the second largest number.
+
+            Create a function that takes a list and returns it in reverse order without using .reverse() or slicing.
+
+            Write a function to check if two strings are anagrams.
+
 """
 
 def stage1():
@@ -82,6 +106,7 @@ def stage1():
 
 
 def stage2():    
+
 
     print("Stage 2... ")
 
@@ -127,6 +152,17 @@ def stage2():
         for i in range(1,e,101):
             if i % 2 ==0:
                 print(i)
+    print("Stage 2 completed... ✅")
 
 
-print("Stage 2 completed... ✅")
+def stage3():
+    print("hi")
+
+
+arr = ["😅","🧑‍💻","⬇️","✅","🚀","🟢","🔴","🔥","😊","❌","😶‍🌫️","💀","👌","👲","🐦‍🔥"]
+
+for i in arr:
+
+    print(f"unicode of this arr{[i]} is : ",ord(i))
+    # print()
+
