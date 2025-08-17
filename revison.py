@@ -172,3 +172,4 @@ for i in arr:
     print(f"Emoji: {i}")
     for ch in i:
         print(f"   - Unicode of '{ch}' is: {ord(ch)}")
+
